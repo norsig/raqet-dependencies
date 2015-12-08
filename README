@@ -1,0 +1,13 @@
+Currently debian includes an old version of libiscsi.
+
+This source package can be used to upgrade to the version used bij the
+raqet server.
+
+Possibly, but not tested the version for the upcomming Xenial release
+can also be used:
+
+https://launchpad.net/ubuntu/xenial/+source/libiscsi
+
+
+Please do not clone this git repo, I will regularly clean it or force
+push new binaries.

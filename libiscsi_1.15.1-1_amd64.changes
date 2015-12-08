@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 01 Jun 2015 10:36:33 +0200
+Source: libiscsi
+Binary: libiscsi1 libiscsi-dev libiscsi-bin
+Architecture: source amd64
+Version: 1.15.1-1
+Distribution: precise
+Urgency: low
+Maintainer: Michael Tokarev <mjt@tls.msk.ru>
+Changed-By: Ruud Schramp <schramp@holmes.nl>
+Description: 
+ libiscsi-bin - iSCSI client shared library - utilities
+ libiscsi-dev - iSCSI client shared library
+ libiscsi1  - iSCSI client shared library
+Changes: 
+ libiscsi (1.15.1-1) precise; urgency=low
+ .
+   * New upstream release
+Checksums-Sha1: 
+ 0ac9a740c14e596a62272cd53477e0b8ad231ad6 956 libiscsi_1.15.1-1.dsc
+ 7ba6c6c609824d35dcb8276c55a02fdebc700464 241222 libiscsi_1.15.1.orig.tar.gz
+ a3c41fd74a12c10af2760dbff39712fd2a491e10 2406 libiscsi_1.15.1-1.debian.tar.gz
+ ffdd53616de493162cdac840fdab5d2b767c22a0 57776 libiscsi1_1.15.1-1_amd64.deb
+ b372bc2ca65ea1ad1a2ba4651e11cc51cc0e81db 83036 libiscsi-dev_1.15.1-1_amd64.deb
+ ea61beaca0810ca5acda9487f4af919770e53e5a 21064 libiscsi-bin_1.15.1-1_amd64.deb
+Checksums-Sha256: 
+ 9d1bea8828a307857424f9e54a7d12bade5433c9f14f905b19125bddbb6fb93d 956 libiscsi_1.15.1-1.dsc
+ b11203f312ff8b9fe3bb2a3a7bb602f37f9eb758ab9f9ded8bbfe9fb9a95ef3b 241222 libiscsi_1.15.1.orig.tar.gz
+ dd238d6c149a95ba839eb418e86799d0e6f2aa09aece64b715e8fc4447830182 2406 libiscsi_1.15.1-1.debian.tar.gz
+ 71c97f71663fc7b801f309dbefec03fc0a0b3a6d1c85aee54fcaad2c339f4bb1 57776 libiscsi1_1.15.1-1_amd64.deb
+ 4aae8c724092f150b76ef271d796838db0a56adbb8f8e65f7c60e336bdeb053c 83036 libiscsi-dev_1.15.1-1_amd64.deb
+ eb2499aacb506feb697fcddfc414991831311097de580b780636a58685c0eab8 21064 libiscsi-bin_1.15.1-1_amd64.deb
+Files: 
+ d423fe4180e2e7c1b4327697a3061947 956 net optional libiscsi_1.15.1-1.dsc
+ 46d2327d83c9ee33bec021f5bd408c99 241222 net optional libiscsi_1.15.1.orig.tar.gz
+ 007281cfa2d1c7160fa5151e3776be70 2406 net optional libiscsi_1.15.1-1.debian.tar.gz
+ 807bbc5f8dee4677f722cbf9dbe74f6a 57776 libs optional libiscsi1_1.15.1-1_amd64.deb
+ cfa062b8322ff70621420b2f1b10db5d 83036 libdevel optional libiscsi-dev_1.15.1-1_amd64.deb
+ 8da9e25a28258a77df59f8123212e255 21064 net optional libiscsi-bin_1.15.1-1_amd64.deb
